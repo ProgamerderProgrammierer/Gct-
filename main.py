@@ -18,4 +18,4 @@ if __name__ == "__main__":
             bot.load_extension(f"cogs.{filename[:-3]}")
 
     load_dotenv()
-    bot.run(os.getenv("MTIyNTc1NjU4ODc2NjI2NTM1NA.GmCm1D.fWOmQ4VF8lP25XKdpNQZR-pYqwWouIXBKIuyEg"))
+    bot.run(os.getenv("BOT_TOKEN"))
