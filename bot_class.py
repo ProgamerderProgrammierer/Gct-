@@ -18,4 +18,4 @@ class Bot(ezcord.Bot):
 if __name__ == "__main__":
     load_dotenv()
     bot = Bot()
-    bot.run(os.getenv("MTIyNTc1NjU4ODc2NjI2NTM1NA.GmCm1D.fWOmQ4VF8lP25XKdpNQZR-pYqwWouIXBKIuyEg"))
+    bot.run(os.getenv("BOT_TOKEN"))
